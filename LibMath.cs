@@ -16,10 +16,10 @@ namespace LibMath
 		}
 		//Formula
 
-		public double areaRetangulo(double b, double h)
+		public double areaLosangulo(double D, double d)
 		{
 
-			return b * h;
+			return D * d / 2;
 
 		}
 	}
