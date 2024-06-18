@@ -6,23 +6,20 @@ using System.Threading.Tasks;
 
 namespace LibMath
 {
-    internal class LibMath
-    {
-        //public float SomaEntre2valores(float v1, float v2) {
-
-        //return v1 + v2; 
-    
-          //}
-
-		public double areaRetangulo(float b, float h)
+	internal class LibMath
+	{
+		public float SomaEntre2valores(float v1, float v2)
 		{
-			Console.WriteLine("Valor da base: ");
-			float b = Console.ReadLine();
-			Console.WriteLine("Valor da Altura h: ");
-			h = Console	.ReadLine();
-			return b * h;
-			
-		}
 
+			return v1 + v2;
+
+
+		}
+		public double areaRetangulo(double b, double h)
+		{
+
+			return b * h;
+
+		}
 	}
 }
