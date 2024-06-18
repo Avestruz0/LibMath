@@ -15,6 +15,8 @@ namespace LibMath
 
 
 		}
+		//Formula
+
 		public double areaRetangulo(double b, double h)
 		{
 
