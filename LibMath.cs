@@ -10,8 +10,17 @@ namespace LibMath
     {
         public float SomaEntre2valores(float v1, float v2) {
 
-        return v1 + v2; 
-    
-          }
-    }
+			return v1 + v2;
+
+
+		}
+		//Formula
+
+		public double areaRetangulo(double b, double h)
+		{
+
+			return b * h;
+
+		}
+	}
 }
