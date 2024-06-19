@@ -8,10 +8,15 @@ namespace LibMath
 {
     internal class LibMath
     {
-        public float SomaEntre2valores(float v1, float v2) {
+        public float SomaEntre2valores(float v1, float v2)
+        {
+            return v1 + v2;
+        }
 
-        return v1 + v2; 
-    
-          }
+        //Formula area do quadrado
+        public float AreaDoQuadrado(float v1, float v2)
+        {
+            return v1 * v2;
+        }
     }
 }
