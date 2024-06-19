@@ -2,27 +2,38 @@
 {
     internal class Program
     {
-        public void Main(string[] args)
+
+
+        static void Main(string[] args)
         {
-            Console.WriteLine("1- Área do triângulo");
-            int resp = Convert.ToInt16(Console.ReadLine());
+            LibMath libmath = new LibMath();
+            int opt = 1;
+            do
+            {
 
-            LibMath lib = new LibMath();
+                Console.WriteLine("MENU");
+                Console.WriteLine("1 calcular área do retângulo: ");
+                Console.WriteLine("2 calcular àrea do losango: ");
+                Console.WriteLine("3 calcular área do quadrado: ");
+                Console.WriteLine("0 SAIR");
 
-            switch (resp){
-                case 1:
+                opt = Convert.ToInt16(Console.ReadLine());
 
-                    Console.WriteLine("Digite o valor do raio:");
-                    float raio = (float) Console.ReadLine();
+                switch (opt)
+                {
+                    case 1:
+                        break;
+                    case 2:
+                        break;
+                    case 3:
+                        break;
+                    case 4:
+                        break;
+                }
+                Console.ReadKey();
 
-                    lib.AreaCirculo();
+            } while (opt != 0);
 
-
-                    break;
-                case 2:
-
-                    break;
-            }
         }
     }
 }

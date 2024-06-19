@@ -14,5 +14,10 @@ namespace LibMath
         return b * h; 
     
           }
+
+        internal void AreaCirculo()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
