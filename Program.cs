@@ -10,7 +10,6 @@
             int opt = 1;
             do
             {
-
                 Console.WriteLine("MENU");
                 Console.WriteLine("1 calcular área do retângulo: ");
                 Console.WriteLine("2 calcular àrea do losango: ");
